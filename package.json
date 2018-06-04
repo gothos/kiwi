@@ -1,0 +1,39 @@
+{
+  "name": "kiwi",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.3.1",
+    "express": "4.16.3",
+    "material-ui": "latest",
+    "material-ui-number-input": "latest",
+    "numeric-keyboard": "^0.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux-logger": "latest",
+    "redux-thunk": "latest",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "axios": "^0.17.1",
+    "cors": "latest",
+    "react-inputs-validation": "latest",
+    "react-bootstrap": "latest",
+    "bootstrap": "latest"
+  },
+  "scripts": {
+    "start": "npm run lint && react-scripts start",
+    "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 'src/**/*.{js,css}' --write",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "server": "node server/app.js",
+    "test": "mocha --timeout 2000"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "prettier": "^1.11.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  }
+}
